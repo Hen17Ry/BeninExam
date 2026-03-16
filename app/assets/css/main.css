@@ -1,0 +1,26 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream: #FAF8F5;
+  --navy: #0F1B2D;
+  --navy-mid: #1E3A5F;
+  --gold: #C9962A;
+  --gold-light: #F5E6C3;
+  --blue: #1d4ed8;
+  --blue-light: #EEF3FF;
+  --text: #1A1A2E;
+  --text-muted: #6B7280;
+  --border: #E8E4DC;
+  --white: #FFFFFF;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 { font-family: 'DM Serif Display', serif; }
