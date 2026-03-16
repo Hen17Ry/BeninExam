@@ -33,10 +33,6 @@ export default defineNuxtConfig({
   },
   },
 
-  nitro: {
-  preset: 'vercel',
-  },
-
  pwa: {
   registerType: 'autoUpdate',
   manifest: {
