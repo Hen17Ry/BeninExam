@@ -213,6 +213,7 @@
       </div>
     </Transition>
   </div>
+  <PwaInstallBanner />
 </template>
 
 <script setup lang="ts">
